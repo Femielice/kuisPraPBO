@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  */
 public class DatabaseHandler {
     public Connection con;
-    private String driver = "com.mysql.cj.jdbc.Driver";
+    private String driver = "com.mysql.jdbc.Driver";
     private String url = "jdbc:mysql://localhost/db_kuis?serverTimezone=" + TimeZone.getDefault().getID();
     private String username = "root";
     private String password = "";
